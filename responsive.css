@@ -1,0 +1,255 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media(max-width:800px) {
+    body {
+        width: 768px;
+        height: 1781px;
+    }
+
+    .container {
+        background-size: cover;
+    }
+
+    .Header {
+        width: 768px;
+    }
+
+    .l-logo {
+        position: relative;
+        left: -250px;
+    }
+
+    h1 {
+        font-size: 64px;
+        width: 520px;
+        height: 192px;
+        position: relative;
+        left: -250px;
+        top: -32px;
+    }
+
+    .r-img {
+        width: 266.67px;
+        height: 400px;
+        left: -305px;
+        position: relative;
+    }
+
+    p {
+        position: relative;
+        top: 30px;
+        width: 514px;
+        height: 112px;
+        left: -250px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .black {
+        width: 696px;
+        height: 600px;
+        transform: translateY(-30px);
+    }
+
+    .mobile {
+        width: 270.2px;
+        height: 556px;
+        left: 64px;
+        top: -138px;
+        z-index: 0;
+    }
+
+    .pattern-2 {
+        z-index: -14;
+        width: 280px;
+        height: 420px;
+        position: absolute;
+        transform: translateY(183px);
+        left: 230px;
+    }
+
+    .orange {
+        width: 399px;
+        height: 546px;
+        transform: translateX(-330px);
+        top: -410px;
+        position: relative;
+    }
+
+    .h1-orange {
+        width: 302px;
+        height: 40px;
+        font-style: normal;
+        font-size: 32px;
+        line-height: 40px;
+        position: relative;
+        left: -8px;
+    }
+
+    .p-orange1 {
+        position: relative;
+        transform: translateX(-165px);
+        top: -199px;
+        z-index: 80;
+        left: 156px;
+        width: 302px;
+        height: 140px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .price-p {
+        position: absolute;
+        left: -1px;
+        top: -53px;
+
+        width: 79px;
+        height: 52px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 52px;
+        color: #FCFAF9;
+    }
+
+    .month-p {
+        position: absolute;
+        top: -44px;
+        left: 90px
+    }
+
+    .ios-btn {
+        width: 296px;
+        height: 61px;
+        top: 55px;
+    }
+
+    .and-btn {
+        top: 71px;
+        width: 296px;
+        height: 61px;
+    }
+
+    .black {
+        position: relative;
+        right: 330px;
+    }
+
+    .footer {
+        width: 768px;
+        top: 500px;
+        position: absolute;
+    }
+
+    .footer-logo {
+        top: -58px;
+        position: absolute;
+        left: -124px;
+    }
+
+    .footer-p {
+        position: absolute;
+        top: 6px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        transform: translateX(-14px);
+    }
+
+    .space {
+        position: absolute;
+        transform: translateX(-638px);
+        top: 33px;
+    }
+}
+
+@media(max-width:375px) {
+    body {
+        width: 375px;
+        height: 1945px;
+    }
+
+    .l-logo {
+        position: absolute;
+        top: -23px;
+        left: -265px;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 327px;
+        height: 144px;
+        position: relative;
+        line-height: 48px;
+        left: -266px;
+
+    }
+
+    p {
+        left: -266px;
+        width: 327px;
+        height: 156px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .r-img {
+        display: none;
+    }
+
+    .mobile {
+        width: 208.9px;
+        height: 430px;
+        left: 80px;
+        top: -98px;
+    }
+
+    .black {
+        top: -145px;
+        left: -533px;
+        width: 375px;
+        height: 600px;
+    }
+
+    .orange {
+        width: 375px;
+        height: 546px;
+        left: 330px;
+        top: -54px;
+    }
+
+    .pattern-2 {
+        left: 47px;
+        top: -183px;
+
+    }
+
+    .footer-p {
+        width: 300px;
+        height: 105px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        top: 68px;
+        left: -127px;
+    }
+    .footer-logo{
+        top: 11px;
+        left: -140px;
+
+    }
+    .space{
+        left:-513px;
+        position: relative;
+        top: 230px;
+    }
+    .all-1{
+        transform: translateX(-12px);
+    }
+
+
+}
